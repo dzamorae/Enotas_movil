@@ -1,0 +1,7 @@
+{
+  "name": "Enotas_movil",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
