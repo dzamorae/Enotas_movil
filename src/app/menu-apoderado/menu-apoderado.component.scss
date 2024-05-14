@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.menu-item {
+  width: 45%;
+  margin: 10px;
+}
+
+.icon {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+ion-tab-bar {
+  --background: #f8f8f8;
+}

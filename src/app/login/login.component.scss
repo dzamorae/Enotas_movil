@@ -1,0 +1,59 @@
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.icon {
+  width: 100px;
+  height: auto;
+}
+
+.title {
+  color: #0096C7;
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+form {
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+ion-item {
+  margin-bottom: 15px;
+}
+
+.forgot-password {
+  display: block;
+  margin-bottom: 20px;
+  color: #666;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+ion-button {
+  margin-top: 10px;
+}
+
+.footer {
+  margin-top: 20px;
+}
+
+.footer a {
+  color: #666;
+  font-size: 0.9rem;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

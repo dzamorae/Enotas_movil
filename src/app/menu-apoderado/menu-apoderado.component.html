@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Menú</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container">
+    <div class="menu-item">
+      <img src="assets/icon/icon-profile.png" alt="Perfil" class="icon" (click)="navigateToPerfil()" style="cursor: pointer;">
+      <p>Perfil</p>
+    </div>
+    <div class="menu-item">
+      <img src="assets/icon/icon-courses.png" alt="Cursos" class="icon">
+      <p>Cursos</p>
+    </div>
+    <div class="menu-item">
+      <img src="assets/icon/icon-grades.png" alt="Mis Calificaciones" class="icon">
+      <p>Mis Calificaciones</p>
+    </div>
+    <div class="menu-item">
+      <img src="assets/icon/icon-calendar.png" alt="Calendario académico" class="icon">
+      <p>Calendario académico</p>
+    </div>
+  </div>
+</ion-content>
+
+<ion-footer>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="menu">
+      <ion-icon name="home-outline"></ion-icon>
+      <ion-label>Menú</ion-label>
+    </ion-tab-button>
+    <ion-tab-button tab="notifications">
+      <ion-icon name="notifications-outline"></ion-icon>
+      <ion-label>Notificaciones</ion-label>
+    </ion-tab-button>
+    <ion-tab-button tab="inbox">
+      <ion-icon name="mail-outline"></ion-icon>
+      <ion-label>Bandeja de entrada</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-footer>

@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/menu"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Cuenta</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container">
+    <img src="assets/icon/icon-profile.png" alt="Profile icon" class="icon">
+    <h2>María Arenas Cruz</h2>
+    <ion-list>
+      <ion-item>
+        <ion-icon name="notifications-outline" slot="start"></ion-icon>
+        <ion-label>Notificaciones</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="mail-outline" slot="start"></ion-icon>
+        <ion-label>Bandeja de Entrada</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="mail-outline" slot="start"></ion-icon>
+        <ion-label>Email : mariaarenasc&#64;enotas.cl</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="settings-outline" slot="start"></ion-icon>
+        <ion-label>Configuración</ion-label>
+      </ion-item>
+    </ion-list>
+    <ion-button expand="full" color="primary" (click)="navigateToBienvenido()">Cerrar sesión</ion-button>
+  </div>
+</ion-content>
